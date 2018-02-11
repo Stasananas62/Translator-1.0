@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Translator</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.css">
+</head>
+
+<body translate="no">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 source-lang-div"></div>
+        <div class="col-md-6 target-lang-div"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="sourceTextInput">
+                <textarea rows="6" id="sourceTextInput" name="text"></textarea>
+            </label>
+        </div>
+        <div class="col-md-6">
+            <label class="right" for="targetTextInput">
+                <textarea rows="6" id="targetTextInput" name="text" readonly=""></textarea>
+            </label>
+        </div>
+    </div>
+    <div style="margin-top: 30px;" class="row">
+        <div class="col-md-12">
+            <button class="btn" id="getTranslation" type="button"><span>Translate</span></button>
+        </div>
+    </div>
+</div>
+
+<script src="js/translator.js"></script>
+</body>
+</html>
