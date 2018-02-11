@@ -8,9 +8,6 @@ const getTranslationButton = document.querySelector('#getTranslation');
 const sourceLangDiv = document.querySelector('.source-lang-div');
 const targetLangDiv = document. querySelector('.target-lang-div');
 
-
-var div = document.createElement('div')
-
 function makeSelectors(){
   const select_source_lang = document.createElement('select');
   select_source_lang.classList.add('source-lang-selection');
